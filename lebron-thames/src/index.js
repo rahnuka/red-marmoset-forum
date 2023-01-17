@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Forum from "./pages/Forum";
@@ -21,5 +21,5 @@ export default function Index() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
 root.render(<Index />);
