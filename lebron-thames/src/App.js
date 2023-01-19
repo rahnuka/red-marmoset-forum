@@ -1,5 +1,7 @@
 import Index from './index.js'
 import './App.css';
+import reportWebVitals from './reportWebVitals';
+
 
 function App() {
   return (
@@ -9,8 +11,7 @@ function App() {
   );
 }
 
-const root = 
-ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Index />);
+reportWebVitals();
 
 export default App;
+

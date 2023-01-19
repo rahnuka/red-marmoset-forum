@@ -3,7 +3,8 @@ function Forum() {
     return (
       <div className="forum">
          <body> 
-                <h1> <header className='pt' >OUR PERSONAL TRAINERS</header>
+          CHUCK
+                <h1> <header></header>
                     <p></p>
                 </h1>
           </body>
