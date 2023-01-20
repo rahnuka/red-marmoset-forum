@@ -1,20 +1,27 @@
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: black;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: normal;
     align-items: center;
-    width: 1300px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .topnav .logo{
+    margin-left: 100px;
+    height: 150px;
+    width: 400px;
   }
   
-  /* .topnav .icon{
-    float: left;
-  } */
+  .topnav .twittericon{
+    margin-left: 400px;
+  }
 
   /* Style the links inside the navigation bar */
   .topnav a {

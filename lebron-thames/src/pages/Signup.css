@@ -1,0 +1,106 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    height: 1500px;
+}
+
+.signup body{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border-style: outset; */
+    /* it looks more like their style (RMS) without a border */
+  }
+
+  .signup footer{
+      font-size: 20px;
+      font-weight: 400;
+      color: white;
+      margin-top: 50px;
+  }
+
+  .signup footer a{
+      color: #cb0000;
+  }
+  
+  .signup .email{
+    width: 600px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .signup .username{
+      width: 400px;
+      margin-bottom: 50px;
+      background-color: transparent;
+      color: white;
+  }
+  
+  .signup .password{
+    width: min-content;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .signup .passwordconfirm{
+    width: min-content;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .signup input{
+    font-size: 20px;
+  }
+  
+  .signup header{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .signup .showpassword{
+    font-size: 20px;
+  }
+  
+  
+  
+  .signup .loginbutton{
+    font-size: 35px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: azure;
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .signup div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px;
+  }
+  
