@@ -16,11 +16,12 @@
   .topnav .logo{
     margin-left: 100px;
     height: 150px;
-    width: 400px;
+    width: 450px;
+    padding-left: 70px;
   }
   
   .topnav .twittericon{
-    margin-left: 400px;
+    margin-left: 502px;
   }
 
   /* Style the links inside the navigation bar */
@@ -30,7 +31,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
 
   

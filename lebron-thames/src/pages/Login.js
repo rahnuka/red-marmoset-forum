@@ -23,7 +23,7 @@ function Login() {
             href="/signup"
             >Signup</a> to create an account.<br/><br/>
             <a 
-            href="https://www.urbandictionary.com/define.php?term=Shronkey" className= "forgotpassword"
+            href="/sounds-like-a-0800-your-problem" className= "forgotpassword"
             >Forgot Password?</a>
         </footer>
         </body>

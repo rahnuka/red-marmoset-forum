@@ -2,9 +2,11 @@ import './Forum.css'
 function Forum() {
     return (
       <div className="forum">
-         <body> 
-          CHUCK
+         <body> Welcome Back User!
                 <h1> <header></header>
+                    <p></p>
+                    <p></p>
+                    <p></p>
                     <p></p>
                 </h1>
           </body>
