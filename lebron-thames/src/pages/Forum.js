@@ -2,12 +2,12 @@ import './Forum.css'
 function Forum() {
     return (
       <div className="forum">
-         <body> Welcome Back User!
-                <h1> <header></header>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+         <body> 
+                <h1> <header>Welcome Back <a href='/settings'>User!</a></header>
+                    <div>discussion<p>comments</p></div>
+                    <div>discussion<p>comments</p></div>
+                    <div>discussion<p>comments</p></div>
+                    <div>discussion<p>comments</p></div>
                 </h1>
           </body>
       </div>

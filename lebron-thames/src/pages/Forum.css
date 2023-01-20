@@ -12,48 +12,51 @@
     height: 1500px;
 }
 
-.forum body{
+.forum header{
+    border: solid;
+    border-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    font-size: 40px;
+}
+
+.forum a{
+    color: #cb0000;
+}
+
+.forum div{
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     flex-direction: row;
-    /* justify-content: flex-start; */
+    justify-content: space-between;
     align-items: baseline;
-    font-size: 20px;
-    font-weight: bolder;
-    
+    color: black;
+    width: 1000px;
+    background-color: #cb0000;
+    /* border-radius: 10px; */
 }
 
 .forum h1{
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    background-color: #b8fffa;
-    font-size: 30px;
+    align-items: row;
+    background-color: transparent;
     font-weight: bolder;
-    width: 1200px;
+    border: solid white;
     border-radius: 20px;
-    margin-top: 100px;
     
 }
 
-/* .forum p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+.forum p{
     text-align: center;
     background-color: #fdfdfd;
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 10px;
-    width: 1200px;
-    margin: 0px;
-    margin-top: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-} */
+    width: 300px;
+}
 
 
 
