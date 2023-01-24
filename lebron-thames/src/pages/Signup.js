@@ -35,11 +35,11 @@ handleSubmit(e) {
     console.log(data,"userRegister");
   })
 }
-
+ 
   render() {
-  const [passwordShown, setPasswordShown] = useState(false);
-  const togglePassword = () => {
-    setPasswordShown(!passwordShown); 
+    const [passwordShown, setPasswordShown] = useState(false);
+    const togglePassword = () => {
+      setPasswordShown(!passwordShown); 
     return (
       <form className="signup" onSubmit={this.handleSubmit}>
         <div className="noboddy"> 
@@ -55,11 +55,11 @@ handleSubmit(e) {
               className="email"
               onChange={(e) => this.setState({ email: e.target.value })}
               />
-              <input type= {passwordShown ? "text" : "password"} 
+              <input type={passwordShown ? "text" : "password"} 
               placeholder="Password" 
               className="password" 
               />
-              <input type= {passwordShown ? "text" : "password"} 
+              <input type={passwordShown ? "text" : "password"} 
               placeholder="Password Confirm" 
               className="passwordconfirm" 
               onChange={(e) => this.setState({ password: e.target.value })}
