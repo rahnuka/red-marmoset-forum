@@ -12,7 +12,7 @@
     height: 1500px;
 }
 
-.signup body{
+.signup .noboddy{
     background-color: transparent;
     display: flex;
     flex-direction: column;
