@@ -1,23 +1,19 @@
 import "./Signup.css"
-import { useState } from "react";
-import React, { Component } from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
-export default class Signup extends Component{
-  constructor(props) {
-    super(props);
-    this.state = {
-      uname: "", //rah
-      email: "", //rahnuka@outlook.com
-      password: "", //rahnuka607
-    };
-    this.handleSubmit = this.handleSubmit.bind(this);
-    
-  }
-handleSubmit(e) {
+export default function Signup(props){
+  const [username, setUsername] = useState(''); //rah
+  const [email, setEmail] = useState(''); //rahnuka@outlook.com
+  const [password, setPassword] = useState(''); //rahnuka607
+
+
+  //axios
+const handleSubmit = e => {
   e.preventDefault();
-  const { uname, email, password } = this.state;
-  console.log(uname, email, password);
-  fetch("http:localhost:5000/register",{
+  const { username, email, password } = this.state;
+  console.log(username, email, password);
+  axios.fetch("http:localhost:3000/register",{
     method: "POST",
     crossDomain:true,
     headers:{
@@ -26,7 +22,7 @@ handleSubmit(e) {
       "Access-Control-Allow-Origin":"*",
     },
     body:JSON.stringify({
-      uname,
+      username,
       email,
       password
     }),
@@ -36,7 +32,6 @@ handleSubmit(e) {
   })
 }
  
-  render() {
     const [passwordShown, setPasswordShown] = useState(false);
     const togglePassword = () => {
       setPasswordShown(!passwordShown); 
@@ -48,12 +43,14 @@ handleSubmit(e) {
               <input type= "text" 
               placeholder="Username" 
               className="username"
-              onChange={(e) => this.setState({ uname: e.target.value })}
+              value={username}
+              onChange={(e) => this.setUsername({ username: e.target.value })}
               />
               <input type= "email" 
               placeholder="Email" 
               className="email"
-              onChange={(e) => this.setState({ email: e.target.value })}
+              value={email}
+              onChange={(e) => this.setEmail({ email: e.target.value })}
               />
               <input type={passwordShown ? "text" : "password"} 
               placeholder="Password" 
@@ -62,7 +59,8 @@ handleSubmit(e) {
               <input type={passwordShown ? "text" : "password"} 
               placeholder="Password Confirm" 
               className="passwordconfirm" 
-              onChange={(e) => this.setState({ password: e.target.value })}
+              value={password}
+              onChange={(e) => this.setPassword({ password: e.target.value })}
               />
               <header className='showpassword'><input type="checkbox" onClick={togglePassword}/>  Show Password</header>
             </div>
@@ -80,4 +78,15 @@ handleSubmit(e) {
   );
 }
 }
-}
+
+
+
+  // constructor(props) 
+  //   super(props);
+  //   this.state = {
+  //     uname: "", 
+  //     email: "", 
+  //     password: "", 
+  //   };
+  //   this.handleSubmit = this.handleSubmit.bind(this);
+    
