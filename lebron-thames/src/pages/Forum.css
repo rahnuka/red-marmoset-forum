@@ -19,6 +19,7 @@
     border-right-color: transparent;
     border-left-color: transparent;
     font-size: 40px;
+    color: #cb0000;
 }
 
 .forum a{
@@ -30,7 +31,6 @@
     flex-direction: row;
     align-items: baseline;
     color: black;
-    background-color: #cb0000;
     /* border-radius: 10px; */
 }
 
@@ -48,22 +48,40 @@
 
 
 .forum p{
-    text-align: center;
-    background-color: #fdfdfd;
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    width: 300px;
+    color: white;
+    font-size: 40px;
 }
 
+.forum p2{
+    color: white;
+    font-size: 25px;
+}
 
-
-/* .forum .head{
-    background-color: #fdfdfd; 
+.forum p3{
+    color: white;
     font-size: 20px;
-    color: #79E4DE;
-    padding: 25px;
-    cursor: pointer; 
-}  */
+}
+
+.forum .discussionstab{
+    border: solid white;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forum .lastposttab{
+    border: solid white;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forum .discussioninfotab{
+    border: solid white;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 

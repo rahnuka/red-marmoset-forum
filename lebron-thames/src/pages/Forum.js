@@ -7,6 +7,37 @@ function Forum() {
       <div className="forum">
          <body> 
                 <h1> <header>Welcome Back <a href='/settings'>User!</a></header> 
+                    <div className='tab'>
+                      <div className='discussionstab'>
+                        <p>moderators discussion</p>
+                        <p2>for help with mods</p2>
+                        </div>
+                      <div className='lastposttab'>
+                        <p>lost</p>
+                        <p2>jesus</p2>
+                        <p3>2022/04/23 12:03</p3>
+                        </div>
+                      <div className='discussioninfotab'>
+                        <p>posts:</p>
+                        <p2>34</p2>
+                      </div>
+                      </div>
+                    <div className='tab'>
+                      <div className='discussionstab'>
+                        <p>chicago guns</p>
+                        <p2>dis about game</p2>
+                        </div>
+                      <div className='lastposttab'>
+                        <p>post title</p>
+                        <p2>post author</p2>
+                        <p3>post datetime</p3>
+                        </div>
+                      <div className='discussioninfotab'>
+                        <p>posts</p>
+                        <p2>threads</p2>
+                        </div>
+                        </div>
+                    <div className='tab'>
                       <div className='discussionstab'>
                         <p>discussion title</p>
                         <p2>discussion content</p2>
@@ -20,6 +51,8 @@ function Forum() {
                         <p>posts</p>
                         <p2>threads</p2>
                       </div>
+                      </div>
+                    <div className='tab'>
                       <div className='discussionstab'>
                         <p>discussion title</p>
                         <p2>discussion content</p2>
@@ -33,37 +66,14 @@ function Forum() {
                         <p>posts</p>
                         <p2>threads</p2>
                       </div>
-                      <div className='discussionstab'>
-                        <p>discussion title</p>
-                        <p2>discussion content</p2>
-                        </div>
-                      <div className='lastposttab'>
-                        <p>post title</p>
-                        <p2>post author</p2>
-                        <p3>post datetime</p3>
-                        </div>
-                      <div className='discussioninfotab'>
-                        <p>posts</p>
-                        <p2>threads</p2>
-                      </div>
-                      <div className='discussionstab'>
-                        <p>discussion title</p>
-                        <p2>discussion content</p2>
-                        </div>
-                      <div className='lastposttab'>
-                        <p>post title</p>
-                        <p2>post author</p2>
-                        <p3>post datetime</p3>
-                        </div>
-                      <div className='discussioninfotab'>
-                        <p>posts</p>
-                        <p2>threads</p2>
                       </div>
                 </h1>
           </body>
       </div>
     );
   }
+
+  //create a footer which naviagtes pages and so i caan get rid of that corner thing
 
 
   //for the link thats name is 'User' in the header, i was going to create a seperate page for the users accoubnt settings
