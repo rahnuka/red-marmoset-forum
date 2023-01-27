@@ -2,53 +2,69 @@ import './Forum.css'
 function Forum() {
   // const Post = ({ post: { title, body,
     // imgUrl, author }, index }) => {
+      //test html to see how to arrange forum by feed page
     return (
       <div className="forum">
          <body> 
                 <h1> <header>Welcome Back <a href='/settings'>User!</a></header> 
-                    <div><p>comments</p></div>
-                    <div>discussion<p>comments</p></div>
-                    <div>discussion<p>comments</p></div>
-                    <div>discussion<p>comments</p></div>
+                      <div className='discussionstab'>
+                        <p>discussion title</p>
+                        <p2>discussion content</p2>
+                        </div>
+                      <div className='lastposttab'>
+                        <p>post title</p>
+                        <p2>post author</p2>
+                        <p3>post datetime</p3>
+                        </div>
+                      <div className='discussioninfotab'>
+                        <p>posts</p>
+                        <p2>threads</p2>
+                      </div>
+                      <div className='discussionstab'>
+                        <p>discussion title</p>
+                        <p2>discussion content</p2>
+                        </div>
+                      <div className='lastposttab'>
+                        <p>post title</p>
+                        <p2>post author</p2>
+                        <p3>post datetime</p3>
+                        </div>
+                      <div className='discussioninfotab'>
+                        <p>posts</p>
+                        <p2>threads</p2>
+                      </div>
+                      <div className='discussionstab'>
+                        <p>discussion title</p>
+                        <p2>discussion content</p2>
+                        </div>
+                      <div className='lastposttab'>
+                        <p>post title</p>
+                        <p2>post author</p2>
+                        <p3>post datetime</p3>
+                        </div>
+                      <div className='discussioninfotab'>
+                        <p>posts</p>
+                        <p2>threads</p2>
+                      </div>
+                      <div className='discussionstab'>
+                        <p>discussion title</p>
+                        <p2>discussion content</p2>
+                        </div>
+                      <div className='lastposttab'>
+                        <p>post title</p>
+                        <p2>post author</p2>
+                        <p3>post datetime</p3>
+                        </div>
+                      <div className='discussioninfotab'>
+                        <p>posts</p>
+                        <p2>threads</p2>
+                      </div>
                 </h1>
           </body>
       </div>
     );
   }
 
-  discusionstuff= [{
-    discussiontitle: "title",
-    discussioncontent: "content",
-    lastposttitle: "lastposttitle", 
-    author: "last post author",
-    lastposttime: "wee hours of the morning",
-    postsfordiscussion: "too many"
-    },
-    {
-    discussiontitle: "title",
-    discussioncontent: "content",
-    lastposttitle: "lastposttitle", 
-    author: "last post author",
-    lastposttime: "wee hours of the morning",
-    postsfordiscussion: "too many"
-  },
-    {
-    discussiontitle: "title",
-    discussioncontent: "content",
-    lastposttitle: "lastposttitle", 
-    author: "last post author",
-    lastposttime: "wee hours of the morning",
-    postsfordiscussion: "too many"
-    },
-    {
-    discussiontitle: "title",
-    discussioncontent: "content",
-    lastposttitle: "lastposttitle", 
-    author: "last post author",
-    lastposttime: "wee hours of the morning",
-    postsfordiscussion: "too many"
-    }
-]
 
   //for the link thats name is 'User' in the header, i was going to create a seperate page for the users accoubnt settings
 
