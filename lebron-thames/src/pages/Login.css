@@ -12,7 +12,7 @@
     height: 1300px;
 }
 
-.login body{
+.login form{
     background-color: transparent;
     display: flex;
     flex-direction: column;

@@ -31,19 +31,19 @@
     flex-direction: row;
     align-items: baseline;
     color: black;
-    /* border-radius: 10px; */
+    width: 1005px
 }
 
 .forum h1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: row;
+    align-items: flex-start;
     background-color: transparent;
     font-weight: bolder;
     border: solid white;
-    border-radius: 20px;
-    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
@@ -67,6 +67,7 @@
     border-width: 2px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .forum .lastposttab{
@@ -74,13 +75,17 @@
     border-width: 2px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 27px;
 }
+
 
 .forum .discussioninfotab{
     border: solid white;
     border-width: 2px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
+    width: 100px;
 }
 
 

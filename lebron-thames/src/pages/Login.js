@@ -8,7 +8,7 @@ function Login() {
 };
   return (
     <div className="login">
-       <body> 
+       <form> 
        <header>Login</header>
           <div>
             <input type= "email" placeholder="Email" className="email"/>
@@ -26,7 +26,7 @@ function Login() {
             href="/sounds-like-a-0800-your-problem" className= "forgotpassword"
             >Forgot Password?</a>
         </footer>
-        </body>
+        </form>
     </div>
   );
 }

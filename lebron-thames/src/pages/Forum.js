@@ -9,23 +9,23 @@ function Forum() {
                 <h1> <header>Welcome Back <a href='/settings'>User!</a></header> 
                     <div className='tab'>
                       <div className='discussionstab'>
-                        <p>moderators discussion</p>
-                        <p2>for help with mods</p2>
+                        <p>discussion title</p>
+                        <p2>discussion content</p2>
                         </div>
                       <div className='lastposttab'>
-                        <p>lost</p>
-                        <p2>jesus</p2>
-                        <p3>2022/04/23 12:03</p3>
+                        <p>post title</p>
+                        <p2>post author</p2>
+                        <p3>post datetime</p3>
                         </div>
                       <div className='discussioninfotab'>
-                        <p>posts:</p>
+                        <p>posts</p>
                         <p2>34</p2>
                       </div>
                       </div>
                     <div className='tab'>
                       <div className='discussionstab'>
-                        <p>chicago guns</p>
-                        <p2>dis about game</p2>
+                        <p>discussion title</p>
+                        <p2>discussion content</p2>
                         </div>
                       <div className='lastposttab'>
                         <p>post title</p>
@@ -34,7 +34,7 @@ function Forum() {
                         </div>
                       <div className='discussioninfotab'>
                         <p>posts</p>
-                        <p2>threads</p2>
+                        <p2>45</p2>
                         </div>
                         </div>
                     <div className='tab'>
@@ -49,7 +49,7 @@ function Forum() {
                         </div>
                       <div className='discussioninfotab'>
                         <p>posts</p>
-                        <p2>threads</p2>
+                        <p2>54</p2>
                       </div>
                       </div>
                     <div className='tab'>
@@ -64,7 +64,7 @@ function Forum() {
                         </div>
                       <div className='discussioninfotab'>
                         <p>posts</p>
-                        <p2>threads</p2>
+                        <p2>54</p2>
                       </div>
                       </div>
                 </h1>
