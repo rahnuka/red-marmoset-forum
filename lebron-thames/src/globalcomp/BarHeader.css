@@ -13,6 +13,13 @@
     padding-bottom: 20px;
   }
 
+  .topnav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .topnav .logo{
     margin-left: 100px;
     height: 150px;
@@ -29,7 +36,6 @@
     float: left;
     color: #CB0000;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
   }
